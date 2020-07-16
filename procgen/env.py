@@ -73,6 +73,7 @@ class BaseProcgenEnv(CEnv):
         num,
         env_name,
         options,
+        wandb,
         debug=False,
         rand_seed=None,
         num_levels=0,
